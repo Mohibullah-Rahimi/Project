@@ -1,0 +1,143 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+.main{ 
+        width: 100 ;
+        background-color:gray ;
+        
+        background-position: center; 
+        background-size: cover;
+        height: 109vh;
+} 
+
+.navbar{
+
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+
+}
+.icon{
+
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: brown;
+    font-size: 30px;
+    font-family: arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 15px;
+    animation:ease-in-out;
+    animation-name: inherit;
+}
+.menu{ 
+    width: 00px;
+    float: left;
+    height: 70px;
+   
+   
+
+}
+
+ul {
+float: left;
+display:flex;
+justify-content: right;
+align-items: right;
+margin-top: 5px;
+
+}
+ul li {
+
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+
+
+}
+   ul li a{ 
+text-decoration: none;
+color:white;
+font-family: arial;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+
+   }
+
+ul li a:hover{
+    color: brown;
+}
+.search{ 
+    position: absolute;
+    top: 10px;
+    right: 200px;
+      
+}
+.srch{
+    font-family: times;
+    width:100px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid brown;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left ;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    
+}
+.content{ 
+    position: absolute;
+    top: 200px;
+    font-size: 48px;
+    font-family: times;
+    color: white;
+    width: bold;
+    
+
+
+
+}
+
+.btn{ 
+
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border-top: 2px solid orangered;
+    margin-top: 13px;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+
+    
+
+}
+
+.btn:focus{
+
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.photo {
+  
+
+    float: right;
+    width: 100 ;
+    position: center; 
+    height:109dvh;
+} 
+}
